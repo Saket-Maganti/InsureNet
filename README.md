@@ -39,21 +39,27 @@ The training incorporates both original and **SMOTE-resampled datasets** to comp
 
  3. Run the main notebook or script:
 
-    Jupyter: Open insurenet_modeling.ipynb or individual model files
-    Script: python ann_resampled.py or python decisiontree.py
+     i. Jupyter: Open insurenet_modeling.ipynb or individual model files
+    
+    ii. Script: python ann_resampled.py or python decisiontree.py
 
  4. Review model performance through:
 
     Console outputs
+    
     Plots generated via matplotlib and seaborn
 
 📈 Future Enhancements
 
-    Hyperparameter optimization using Keras Tuner or GridSearchCV
-    Model deployment as an API using Flask or FastAPI
-    Cloud training and model hosting via AWS S3 and SageMaker
-    Frontend dashboard integration using Streamlit or Dash
+     i. Hyperparameter optimization using Keras Tuner or GridSearchCV
+ 
+    ii. Model deployment as an API using Flask or FastAPI
+ 
+   iii. Cloud training and model hosting via AWS S3 and SageMaker
+
+    iv. Frontend dashboard integration using Streamlit or Dash
 
 📝 License
+
 This project is licensed under the MIT License. Feel free to fork, extend, and contribute!
 
