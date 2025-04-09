@@ -45,9 +45,9 @@ The training incorporates both original and **SMOTE-resampled datasets** to comp
 
  4. Review model performance through:
 
-    Console outputs
+     i. Console outputs
     
-    Plots generated via matplotlib and seaborn
+    ii. Plots generated via matplotlib and seaborn
 
 📈 Future Enhancements
 
@@ -57,7 +57,7 @@ The training incorporates both original and **SMOTE-resampled datasets** to comp
  
    iii. Cloud training and model hosting via AWS S3 and SageMaker
 
-    iv. Frontend dashboard integration using Streamlit or Dash
+    iv. Frontend dashboard integration using Streamlit or Dash
 
 📝 License
 
