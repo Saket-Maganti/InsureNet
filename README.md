@@ -1,36 +1,34 @@
-# InsureNet: Deep Learning for Insurance Churn Prediction
+# 🚀 InsureNet: Deep Learning for Insurance Churn Prediction
 
-## Overview
-InsureNet is a deep learning-based project that leverages Artificial Neural Networks (ANN) to predict customer churn in the insurance industry. The goal is to identify customers likely to discontinue their policy and help businesses take proactive retention steps.
+## 📌 Project Overview
+**InsureNet** is a predictive analytics project that uses **Artificial Neural Networks (ANN)** to forecast customer churn in the insurance sector. The objective is to proactively identify customers at risk of discontinuing their policies and provide insurers with data-driven insights to improve retention strategies.
 
-## Technologies Used
-- Python
-- TensorFlow
-- Keras
-- Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn
+## 🛠️ Technologies Used
+- **Python** (3.8+)
+- **TensorFlow** & **Keras** – Deep learning model development
+- **Pandas**, **NumPy** – Data manipulation and processing
+- **Scikit-learn** – Model evaluation and preprocessing
+- **Seaborn**, **Matplotlib** – Data visualization
 
-## Model Architecture
-A Multi-Layer Perceptron (MLP) ANN model is used with multiple hidden layers to learn complex customer behavior patterns. The model is trained on a structured dataset using supervised learning techniques.
+## 🧠 Model Architecture
+The model is built using a **Multi-Layer Perceptron (MLP)** with:
+- LeakyReLU activation functions
+- Dropout regularization
+- Binary Focal Loss to address class imbalance
+- Optimized using Adam with a low learning rate for stability
 
-## Key Features
-- Data preprocessing and normalization
-- Model training and evaluation with accuracy and loss metrics
-- Confusion matrix and classification report for performance assessment
-- Clean, modular code suitable for extension or production deployment
+The training incorporates both original and **SMOTE-resampled datasets** to compare model performance on balanced and imbalanced data.
 
-## How to Run
-1. Install required libraries: `pip install -r requirements.txt`
-2. Run the main Jupyter notebook or script: `python churn_prediction.py` or open the `.ipynb` file
-3. Review model performance and outputs
+## ✅ Key Features
+- Data cleaning, transformation, and feature engineering
+- Normalization using `MinMaxScaler` and `StandardScaler`
+- Resampling using SMOTE for balanced classification
+- Model evaluation using confusion matrix, classification report, ROC curve
+- Visualization of churn trends and correlations across key features
 
-## Future Improvements
-- Hyperparameter tuning using GridSearchCV or Keras Tuner
-- Model deployment as a REST API with Flask
-- Integration with AWS S3 and SageMaker for cloud-based training
+## ▶️ How to Run
 
-## Author
-Vaishnavi Polampalli
-
-## License
-This project is open-source and available under the MIT License.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Saket-Maganti/InsureNet.git
+   cd InsureNet
