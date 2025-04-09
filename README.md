@@ -32,3 +32,28 @@ The training incorporates both original and **SMOTE-resampled datasets** to comp
    ```bash
    git clone https://github.com/Saket-Maganti/InsureNet.git
    cd InsureNet
+
+ 2. Install dependencies:
+
+    pip install -r requirements.txt
+
+ 3. Run the main notebook or script:
+
+    Jupyter: Open insurenet_modeling.ipynb or individual model files
+    Script: python ann_resampled.py or python decisiontree.py
+
+ 4. Review model performance through:
+
+    Console outputs
+    Plots generated via matplotlib and seaborn
+
+📈 Future Enhancements
+
+    Hyperparameter optimization using Keras Tuner or GridSearchCV
+    Model deployment as an API using Flask or FastAPI
+    Cloud training and model hosting via AWS S3 and SageMaker
+    Frontend dashboard integration using Streamlit or Dash
+
+📝 License
+This project is licensed under the MIT License. Feel free to fork, extend, and contribute!
+
