@@ -49,15 +49,13 @@ The training incorporates both original and **SMOTE-resampled datasets** to comp
     
     ii. Plots generated via matplotlib and seaborn
 
-📈 Future Enhancements
+## 📈 Future Enhancements
 
-     i. Hyperparameter optimization using Keras Tuner or GridSearchCV
- 
-    ii. Model deployment as an API using Flask or FastAPI
- 
-   iii. Cloud training and model hosting via AWS S3 and SageMaker
+1. **Hyperparameter optimization** using Keras Tuner or GridSearchCV  
+2. **Model deployment** as an API using Flask or FastAPI  
+3. **Cloud training and hosting** via AWS S3 and SageMaker  
+4. **Frontend dashboard integration** using Streamlit or Dash  
 
-    iv. Frontend dashboard integration using Streamlit or Dash
 
 📝 License
 
